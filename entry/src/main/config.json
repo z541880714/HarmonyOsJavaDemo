@@ -1,0 +1,94 @@
+{
+  "app": {
+    "bundleName": "com.lionel.zc.javaDemo1",
+    "vendor": "lionel",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "metaData": {
+      "customizeData": [
+        {
+          "name": "hwc-theme",
+          "value": "androidhwext:style/Theme.Emui.NoTitleBar",
+          "extra": ""
+        }
+      ]
+    },
+    "package": "com.lionel.zc.javaDemo1",
+    "name": ".MyApplication",
+    "mainAbility": "com.lionel.zc.javaDemo1.MainAbility",
+    "deviceType": [
+      "phone",
+      "wearable"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.GET_NETWORK_INFO"
+      },
+      {
+        "name": "ohos.permission.SET_NETWORK_INFO"
+      },
+      {
+        "name": "ohos.permission.INTERNET"
+      }
+    ],
+    "abilities": [
+      {
+        "metaData": {
+          "customizeData": [
+            {
+              "name": "hwc-theme",
+              "value": "androidhwext:style/Theme.Emui.Light.NoTitleBar"
+            }
+          ]
+        },
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "visible": true,
+        "name": "com.lionel.zc.javaDemo1.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:splashscreenability_description",
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "skills": [
+          {
+            "actions": [
+              "FNCMD_ABILITY_NAME_SLICE",
+              "FNCMD_ABILITY_RAIWAY_SLICE",
+              "FNCMD_ABILITY_AIRPORT_SLICE"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.lionel.zc.javaDemo1.FnmcdAbility",
+        "icon": "$media:icon",
+        "description": "$string:fnmcdability_description",
+        "label": "$string:entry_FnmcdAbility",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ]
+  }
+}

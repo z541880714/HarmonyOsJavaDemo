@@ -1,0 +1,24 @@
+{
+  "app": {
+    "bundleName": "com.lionel.zc.javaDemo1",
+    "vendor": "lionel",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {
+  },
+  "module": {
+    "package": "com.lionel.zc.fncmd_name",
+    "deviceType": [
+      "phone",
+      "wearable"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "fncmd_name",
+      "moduleType": "har"
+    }
+  }
+}

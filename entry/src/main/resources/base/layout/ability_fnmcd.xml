@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:alignment="center"
+    ohos:height="match_parent"
+    ohos:width="match_parent">
+
+
+    <Button
+        ohos:background_element="$graphic:color_cyan_element"
+        ohos:center_in_parent="true"
+        ohos:height="match_content"
+        ohos:id="$+id:id_bt1"
+        ohos:layout_alignment="center"
+        ohos:padding="20px"
+        ohos:text="Button 1"
+        ohos:text_size="20fp"
+        ohos:top_margin="100px"
+        ohos:width="match_content"/>
+
+</DependentLayout>
